@@ -16,5 +16,12 @@ player.pointsPerGame = 19.2;
 console.log(player.pointsPerGame); // 19.2
 player.isStarter = true
 player.numOfGames = 19
+console.log(player);
 
-console.log(player)
+let favFoods = ["Popcorn", "Pizza", "Skittles", "Cereal"];
+console.log(favFoods);
+favFoods.push("fortnite", "candy");
+favFoods[2] = "Waffles";
+favFoods.pop();
+favFoods.length;
+console.log(favFoods);
