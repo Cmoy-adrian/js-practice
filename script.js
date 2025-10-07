@@ -25,3 +25,22 @@ favFoods[2] = "Waffles";
 favFoods.pop();
 favFoods.length;
 console.log(favFoods);
+
+function rateSong(songName, rating) {
+    if (rating === 5) {
+        console.log(songName + " is by far the best song!");
+    } else if (rating === 3,4) {
+        console.log(songName + " is good, but not the best.");
+    } else if (rating <= 2) {
+        console.log(songName + " is definitely not the best.");
+    }
+};
+
+let mySongs = ["Fortnite Theme", "Monkey Spinning Monkeys", "Seven Nation Army"]
+
+for (let i = 0; i < mySongs.length; i++) {
+    console.log(mySongs[i]);
+}
+
+rateSong(mySongs[0], 5);
+rateSong(mySongs[1], 4);
